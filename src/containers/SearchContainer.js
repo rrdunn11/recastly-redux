@@ -17,9 +17,10 @@ import handleVideoSearch from '../actions/search.js';
 //create mapStatToProps
 const mapStateToProps = state => {
   //returns an object with data that the omponent can use
-    return{
-        value: state.value
-    }
+    // return{
+    //     value: state.value
+    // }
+    return {}
 }
 //create mapDispatchToPops
 //should take in dispatch method to dispatch actions to store
