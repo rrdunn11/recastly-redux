@@ -11,7 +11,6 @@ var currentVideoReducer = (state = null, action) => {
   //check action.type
     //if case matches: return updated new state
   //default is to return initial state
-
   switch (action.type) {
     case 'CHANGE_VIDEO':
       return action.video;
